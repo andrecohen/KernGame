@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "Paper.h"
 
+@interface ViewController : UIViewController <UIScrollViewDelegate> {
+	
+	UIScrollView *scroll;
+	Paper *paper;
+	
+}
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView;
 
 @end
 

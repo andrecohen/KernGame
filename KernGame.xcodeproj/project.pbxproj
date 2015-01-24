@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F5CEBB71A4F07E100FB3688 /* Letter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5CEBB61A4F07E100FB3688 /* Letter.m */; };
+		7F5CEBBB1A4F195900FB3688 /* Paper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5CEBBA1A4F195900FB3688 /* Paper.m */; };
+		7F5CEBBD1A4F470B00FB3688 /* Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F5CEBBC1A4F470B00FB3688 /* Colors.plist */; };
+		7F5CEBC01A4F5EE300FB3688 /* SingleLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5CEBBF1A4F5EE300FB3688 /* SingleLetter.m */; };
 		7F6B3C411A3E3C1700DA21F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B3C401A3E3C1700DA21F5 /* main.m */; };
 		7F6B3C441A3E3C1700DA21F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B3C431A3E3C1700DA21F5 /* AppDelegate.m */; };
 		7F6B3C471A3E3C1700DA21F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B3C461A3E3C1700DA21F5 /* ViewController.m */; };
@@ -27,6 +31,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F5CEBB61A4F07E100FB3688 /* Letter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Letter.m; sourceTree = "<group>"; };
+		7F5CEBB81A4F07EA00FB3688 /* Letter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Letter.h; sourceTree = "<group>"; };
+		7F5CEBB91A4F195900FB3688 /* Paper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paper.h; sourceTree = "<group>"; };
+		7F5CEBBA1A4F195900FB3688 /* Paper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paper.m; sourceTree = "<group>"; };
+		7F5CEBBC1A4F470B00FB3688 /* Colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Colors.plist; sourceTree = "<group>"; };
+		7F5CEBBE1A4F5EE300FB3688 /* SingleLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLetter.h; sourceTree = "<group>"; };
+		7F5CEBBF1A4F5EE300FB3688 /* SingleLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleLetter.m; sourceTree = "<group>"; };
 		7F6B3C3B1A3E3C1700DA21F5 /* KernGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KernGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6B3C3F1A3E3C1700DA21F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F6B3C401A3E3C1700DA21F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +96,13 @@
 				7F6B3C431A3E3C1700DA21F5 /* AppDelegate.m */,
 				7F6B3C451A3E3C1700DA21F5 /* ViewController.h */,
 				7F6B3C461A3E3C1700DA21F5 /* ViewController.m */,
+				7F5CEBB91A4F195900FB3688 /* Paper.h */,
+				7F5CEBBA1A4F195900FB3688 /* Paper.m */,
+				7F5CEBB81A4F07EA00FB3688 /* Letter.h */,
+				7F5CEBB61A4F07E100FB3688 /* Letter.m */,
+				7F5CEBBE1A4F5EE300FB3688 /* SingleLetter.h */,
+				7F5CEBBF1A4F5EE300FB3688 /* SingleLetter.m */,
+				7F5CEBBC1A4F470B00FB3688 /* Colors.plist */,
 				7F6B3C481A3E3C1700DA21F5 /* Main.storyboard */,
 				7F6B3C4B1A3E3C1700DA21F5 /* Images.xcassets */,
 				7F6B3C4D1A3E3C1700DA21F5 /* LaunchScreen.xib */,
@@ -199,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F5CEBBD1A4F470B00FB3688 /* Colors.plist in Resources */,
 				7F6B3C4A1A3E3C1700DA21F5 /* Main.storyboard in Resources */,
 				7F6B3C4F1A3E3C1700DA21F5 /* LaunchScreen.xib in Resources */,
 				7F6B3C4C1A3E3C1700DA21F5 /* Images.xcassets in Resources */,
@@ -222,6 +241,9 @@
 				7F6B3C471A3E3C1700DA21F5 /* ViewController.m in Sources */,
 				7F6B3C441A3E3C1700DA21F5 /* AppDelegate.m in Sources */,
 				7F6B3C411A3E3C1700DA21F5 /* main.m in Sources */,
+				7F5CEBC01A4F5EE300FB3688 /* SingleLetter.m in Sources */,
+				7F5CEBB71A4F07E100FB3688 /* Letter.m in Sources */,
+				7F5CEBBB1A4F195900FB3688 /* Paper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +436,7 @@
 				7F6B3C601A3E3C1700DA21F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F6B3C611A3E3C1700DA21F5 /* Build configuration list for PBXNativeTarget "KernGameTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +445,7 @@
 				7F6B3C631A3E3C1700DA21F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
